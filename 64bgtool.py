@@ -4,8 +4,8 @@ import os
 from sys import argv as argv
 xmax = 640
 ymax = 480
-alpha = open("bg_alpha.rgba","rb").read()
-color = open("bg_color.rgba","rb").read()
+#alpha = open("Bg_alpha_best.rgba","rb").read()
+#color = open("Bg_color_best.rgba","rb").read()
 
 def _5to8(c):
     return c << 3
